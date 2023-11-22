@@ -1,7 +1,9 @@
+import math
+
 def lingkaran():
     r = int(input("masukan nilai r: "))
-    luas = 3.14*r**2
-    keliling = 2*3.14*r
+    luas = math.pi*r**2
+    keliling = 2*math.pi*r
     print("Luas: ", luas)
     print("Keliling: ", keliling)
     return luas, keliling
